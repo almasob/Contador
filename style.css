@@ -1,0 +1,149 @@
+body{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+}
+
+header{
+	width: 100%;
+	height: 15%;
+	letter-spacing: 5px;
+	padding-top: 5%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+header h1{
+	text-shadow: 0px 0px 10px blueviolet;
+	width: 98%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px 1px blueviolet;
+}
+
+main{
+	width: 100%;
+	height: 80%;
+}
+
+.secaoNumero{
+	width: 100%;
+	height: 70%;
+	text-align: center;
+	font-size: 250px;
+	box-sizing: border-box;
+	padding-top: 8%;
+	color: blueviolet;
+
+}
+
+.botoes{
+	text-align: center;
+	height: 30%;
+	box-sizing: border-box;
+	padding-top: 5%;
+}
+
+.botoes button{
+	width: 30%;
+	height: 80%;
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+	box-sizing: border-box;
+	border-radius: 40px;
+	background-color: blueviolet;
+	color: white;
+}
+
+footer{
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #c18ff0;
+}
+
+
+@media screen and (min-width: 550px){
+
+	header{
+		font-size: 80px;
+		padding-top: 2%;
+	}
+
+	footer{
+		letter-spacing: 1px;
+	}
+
+}
+
+@media screen and (min-width: 900px){
+		header{
+		font-size: 90px;
+		padding-top: 0;
+	}
+
+	.secaoNumero{
+		font-size: 300px;
+		padding-top: 5%;
+	}
+
+	.botoes{
+		padding-top: 2%;
+	}
+
+	.botoes button{
+		height: 90%;
+		font-size: 50px;
+	}
+
+	footer{
+		font-size: 30px;
+		letter-spacing: 2px;
+
+	}
+}
+
+
+@media screen and (min-width: 1300px){
+
+		header{
+		font-size: 100px;
+		padding-top: 1%;
+		letter-spacing: 10px;
+	}
+
+	.secaoNumero{
+		font-size: 390px;
+		padding-top: 3%;
+	}
+
+	.botoes button{
+		font-size: 80px;
+	}
+
+	footer{
+		letter-spacing: 5px;
+		font-size: 32px;
+	}
+
+}
+
+@media screen and (max-width: 440px){
+	header{
+		font-size: 40px;
+	}
+
+	.botoes button{
+		font-size: 30px;
+	}
+
+	footer{
+		font-size: 16.5px;
+	}
+}
