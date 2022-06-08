@@ -66,6 +66,7 @@ footer{
 	font-size: 20px;
 	font-weight: bold;
 	background-color: #c18ff0;
+	box-sizing: border-box;
 }
 
 
@@ -145,5 +146,12 @@ footer{
 
 	footer{
 		font-size: 16.5px;
+	}
+}
+
+@media screen and (max-width:  360px){
+	footer{
+		padding-top: 10px;
+		font-size: 16px;
 	}
 }
