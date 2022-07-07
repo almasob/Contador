@@ -6,7 +6,7 @@
 <h2>Descrição</h2>
 <p>Projeto criado por conta própria, visando praticar e aprimorar minhas habilidades de programação.</p>
 
-<h2>Funcionalidade</h2>
+<h2>Funcionalidades</h2>
 <ul>
 	<li>A principal função é fazer contagem</li>
 	<li>Botão para incremento</li>
